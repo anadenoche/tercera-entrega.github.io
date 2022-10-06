@@ -1,0 +1,22 @@
+.beneficios {
+    background-color:blanchedalmond;
+    border: solid 3px black;
+    .beneficios__titulo {
+        h2 {
+            text-align: center;
+         font-size: xx-large;
+         padding: 60px;
+        }
+
+    }
+    .beneficios__razones {
+        display: flex;
+         flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 15vh;
+    }
+
+}

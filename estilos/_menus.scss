@@ -1,0 +1,26 @@
+
+
+.Menus {
+    &__item {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    &__titulo{
+        text-align: center;
+        padding: 10vh;
+        font-size: larger;
+        color: antiquewhite;
+    }
+    &__boton { 
+        display: flex;
+        justify-content: center;
+        button {
+            background-color: darkred;
+            color: white;
+            padding: 2vh;
+            margin: 2vh;
+        }
+     }
+}

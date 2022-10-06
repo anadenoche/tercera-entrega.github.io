@@ -1,0 +1,208 @@
+@import 'main.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#giftcard {
+    color: rgb(250, 152, 39);    
+}
+
+
+
+.col-12 {
+    background-image: url(../imagenes/banner.jpg);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    height: 130vh;
+    color: white;
+    
+}
+
+
+.queContiene__contenidos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 7vh;
+}
+
+.queContiene {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: antiquewhite;
+    border: black 2px solid;
+    padding: 5vh;
+}
+.queContiene__contenidos h2 {
+    color: brown;
+    font-size:x-large;
+}
+
+.queContiene__contenidos ul li {
+    list-style: none;
+    text-align: justify;
+}
+    
+.queContiene__contenidos button a {
+    font-style: none;
+    color: black;
+    background-color: beige;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 4vh ;
+}
+
+#recetasNuevas {
+    background-color: blanchedalmond;
+    border: black 2px solid;
+}
+.receta img {
+    width: 10vh;
+    height: auto;
+    border-radius: 5vh;
+    border: black 4px solid;
+}
+.receta p {
+    padding: 5vh;
+    font-style: italic;
+}
+.recetasNuevas__titulo h3 {
+    padding: 10vh;
+    text-align: center;
+}
+.recetasNuevas__recetas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.recetasNuevas__boton {
+    display: flex;
+    justify-content: center;
+}
+
+.recetasNuevas__boton button {
+    text-align: center;
+    padding: 10px;
+    background-color: brown;
+    margin: 10vh;
+}
+
+.recetasNuevas__boton button a {
+    text-decoration: none;
+    color: antiquewhite;
+
+}
+.receta img {
+    width: 25vh;
+}
+
+.receta p {
+    text-decoration: solid;
+}
+
+.razon img {
+    width: 25vh;
+}
+
+.razon p {
+    padding: 5vh;
+}
+
+#preguntasFrecuentes {
+    background-color: bisque;
+    border: solid 1px black;
+}
+
+#preguntasFrecuentes h3 {
+    text-align: center;
+    font-size: xx-large;
+    padding: 3%;
+}
+
+.preguntasFrecuentes__preguntas {
+padding-bottom: 50px;
+}
+
+.preguntasFrecuentes__preguntas a {
+    display: block;
+    text-align: center;
+    padding: 3px;
+    color: black;
+}
+
+
+#Mantenete { 
+    background-color: beige;
+    padding-bottom: 15vh;
+    
+}
+
+#Mantenete h3 { 
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+#Mantenete .form {
+    text-align: center;
+}
+
+#planes {
+    background-color: antiquewhite;
+}
+
+.preferencias { 
+    text-align: center;
+    padding: 10vh;
+}
+
+#elegituspreferencias {
+    background-color: bisque;
+}
+
+
+.comida {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.comida .card-img-top {
+    width: 42vh;
+    height: 35vh;
+    padding: 2vh;
+
+}
+
+
+@media (max-width: 767px) {
+    .col-12 {
+        height: 170vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .col-12 {
+        height: 240vh;
+    }
+}

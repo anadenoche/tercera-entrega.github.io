@@ -1,0 +1,25 @@
+.porQue {
+    background-color: beige;
+    padding-bottom: 10vh;
+    .porQue__titulo {
+        text-align: center;
+        font-size: 10vh;
+        font-style: oblique;
+        padding: 15vh;
+        padding-bottom: 10vh;
+    }
+}
+
+.porQue__razones {
+    background-color: beige;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-around;
+    .razon {
+       padding: 10px;
+       font-size: x-large;
+    }
+}
+    

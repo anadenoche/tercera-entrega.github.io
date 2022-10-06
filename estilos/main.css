@@ -1,0 +1,66 @@
+.Menus__item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Menus__titulo {
+  text-align: center;
+  padding: 10vh;
+  font-size: larger;
+  color: antiquewhite;
+}
+.Menus__boton {
+  display: flex;
+  justify-content: center;
+}
+.Menus__boton button {
+  background-color: darkred;
+  color: white;
+  padding: 2vh;
+  margin: 2vh;
+}
+
+.porQue {
+  background-color: beige;
+  padding-bottom: 10vh;
+}
+.porQue .porQue__titulo {
+  text-align: center;
+  font-size: 10vh;
+  font-style: oblique;
+  padding: 15vh;
+  padding-bottom: 10vh;
+}
+
+.porQue__razones {
+  background-color: beige;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: space-around;
+}
+.porQue__razones .razon {
+  padding: 10px;
+  font-size: x-large;
+}
+
+.beneficios {
+  background-color: blanchedalmond;
+  border: solid 3px black;
+}
+.beneficios .beneficios__titulo h2 {
+  text-align: center;
+  font-size: xx-large;
+  padding: 60px;
+}
+.beneficios .beneficios__razones {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 15vh;
+}/*# sourceMappingURL=main.css.map */
